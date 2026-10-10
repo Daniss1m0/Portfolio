@@ -1,15 +1,15 @@
 import Image from 'next/image'
 
 const lead =
-	'I am a Frontend Developer with over 4 years of commercial development experience. My expertise includes developing intricate user interfaces, enhancing web application performance, and implementing innovative functional capabilities.'
+	'I am a Junior Game Developer specializing in C++ and C#, with a strong focus on game development using Unity and Unreal Engine 5. My experience includes building custom OpenGL graphics projects, developing VR applications, and conducting QA testing.'
 
 const support =
-	'Exploring the intersection of design and code, I thrive on crafting immersive digital experiences that seamlessly blend creativity with functionality.'
+	'Currently pursuing a Master\'s degree in Applied Computer Science, I focus on tackling diverse, multifaceted projects to constantly challenge and expand my skill set.'
 
 const facts = [
-	{ key: 'Experience', value: '4+ years' },
-	{ key: 'Focus', value: 'Interfaces, performance' },
-	{ key: 'Core', value: 'React, Next.js, TypeScript' },
+	{ key: 'Experience', value: 'Junior / Master\'s Student' },
+    { key: 'Focus', value: 'GameDev' },
+    { key: 'Core', value: 'C#, C++, Unity, UE5, Blender' },
 ]
 
 export default function Hero() {
@@ -17,21 +17,21 @@ export default function Hero() {
 		<section id='top' className='relative border-b border-line'>
 			<div className='shell pt-16 pb-20 md:pt-28 md:pb-28'>
 				<h1 className='visually-hidden'>
-					Rodion Zherdev — Frontend Developer
+					Daniil Dunytskyi — Junior Unity Developer
 				</h1>
 
 				<div className='grid items-start gap-x-10 gap-y-12 md:grid-cols-12'>
 					{/* Левая колонка: имя и текст */}
 					<div className='md:col-span-7'>
-						<p className='label reveal'>Frontend developer</p>
+						<p className='label reveal'>Junior game developer</p>
 
 						<p
 							className='reveal mt-7 font-display text-[clamp(3.25rem,10vw,7.5rem)] leading-[0.86] tracking-[-0.045em] text-fg [--reveal-delay:80ms]'
 							aria-hidden='true'
 						>
-							Rodion
+							Daniil
 							<br />
-							Zherdev
+							Dunytskyi
 						</p>
 
 						<div className='reveal mt-10 h-px w-full bg-line [--reveal-delay:160ms]' />
@@ -52,8 +52,8 @@ export default function Hero() {
 							<div className='relative aspect-4/5 w-full overflow-hidden border border-line bg-ink-elev'>
 								<Image
 									className='object-cover grayscale contrast-105 transition-[filter,transform] duration-700 ease-out-soft group-hover:scale-[1.02] group-hover:grayscale-0'
-									src='/images/hero/rodion.jpg'
-									alt='Portrait of Rodion Zherdev'
+									src='/images/hero/daniil.jpg'
+									alt='Portrait of Daniil Dunytskyi'
 									fill
 									priority
 									sizes='(min-width: 768px) 40vw, 100vw'
@@ -66,7 +66,7 @@ export default function Hero() {
 							</div>
 
 							<figcaption className='label mt-4 flex items-center justify-between'>
-								<span>Rodion Zherdev</span>
+								<span>Daniil Dunytskyi</span>
 								<span className='text-fg-faint'>Remote</span>
 							</figcaption>
 						</figure>
