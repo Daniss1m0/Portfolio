@@ -3,7 +3,7 @@ import Image from 'next/image'
 import EmailIcon from '@/modal/email.svg?url'
 import GitHubIcon from '@/modal/gh.svg?url'
 import TelegramIcon from '@/modal/tg.svg?url'
-import WhatsappIcon from '@/modal/wa.svg?url'
+import MessengerIcon from '@/modal/mess.svg?url'
 
 type Channel = {
 	name: string
@@ -15,26 +15,26 @@ type Channel = {
 const channels: Channel[] = [
 	{
 		name: 'Telegram',
-		handle: '@Rodion_Zherdev',
-		href: 'https://t.me/Rodion_Zherdev',
+		handle: '@Daniss1m0_Legend',
+		href: 'https://t.me/Daniss1m0_Legend',
 		icon: TelegramIcon,
 	},
 	{
-		name: 'WhatsApp',
-		handle: 'Direct message',
-		href: 'https://wa.me/message/BQS5FPK5PTQAG1',
-		icon: WhatsappIcon,
+		name: 'Messenger',
+		handle: 'Daniil Dunytskyi',
+		href: 'https://m.me/Daniil Dunytskyi',
+		icon: MessengerIcon,
 	},
 	{
 		name: 'Email',
-		handle: 'jerdew.r@icloud.com',
-		href: 'mailto:jerdew.r@icloud.com',
+		handle: 'daniildu437@gmail.com',
+		href: 'mailto:daniildu437@gmail.com',
 		icon: EmailIcon,
 	},
 	{
 		name: 'GitHub',
-		handle: 'ZhRodion',
-		href: 'https://github.com/ZhRodion',
+		handle: 'Daniss1m0',
+		href: 'https://github.com/Daniss1m0',
 		icon: GitHubIcon,
 	},
 ]
@@ -54,7 +54,7 @@ export default function Contact() {
 						</h2>
 						<p className='reveal-scroll mt-6 max-w-[34ch] text-base leading-[1.7] text-fg-faint'>
 							Open to product work and long-term collaboration. The fastest way
-							to reach me is Telegram.
+							to reach me is Telegram or Email.
 						</p>
 					</div>
 

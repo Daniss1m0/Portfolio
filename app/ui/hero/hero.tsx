@@ -51,7 +51,7 @@ export default function Hero() {
 						<figure className='group reveal relative [--reveal-delay:120ms]'>
 							<div className='relative aspect-4/5 w-full overflow-hidden border border-line bg-ink-elev'>
 								<Image
-									className='object-cover grayscale contrast-105 transition-[filter,transform] duration-700 ease-out-soft group-hover:scale-[1.02] group-hover:grayscale-0'
+									className='object-cover object-[center_25%] scale-[1.35] grayscale contrast-105 transition-[filter,transform] duration-700 ease-out-soft group-hover:scale-[1.42] group-hover:grayscale-0'
 									src='/images/hero/daniil.jpg'
 									alt='Portrait of Daniil Dunytskyi'
 									fill

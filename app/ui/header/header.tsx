@@ -19,7 +19,7 @@ export default function Header() {
 					    invert поднимает результат в белый. */}
 					<DevLogo className='h-7 w-auto brightness-0 invert' />
 					<span className='hidden text-sm tracking-tight text-fg-dim transition-colors duration-300 group-hover:text-fg sm:block'>
-						Rodion Zherdev
+						Daniil Dunytskyi
 					</span>
 				</a>
 
