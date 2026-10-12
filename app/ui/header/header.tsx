@@ -1,8 +1,8 @@
 import DevLogo from '@/logo.svg'
 
 const nav = [
-	{ href: '#stack', label: 'Stack' },
-	{ href: '#contact', label: 'Contact' },
+    { href: '#projects', label: 'Projects' },
+    { href: '#contact', label: 'Contact' },
 ]
 
 export default function Header() {
@@ -12,7 +12,7 @@ export default function Header() {
 				<a
 					href='#top'
 					className='group flex items-center gap-3 transition-opacity duration-300 hover:opacity-70'
-					aria-label='Rodion Zherdev — to the top'
+					aria-label='Daniil Dunytskyi — to the top'
 				>
 					{/* Логотип нарисован в фирменных синих. На почти-чёрном фоне
 					    сводим его к белому силуэту: brightness(0) гасит все цвета,
