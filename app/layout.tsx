@@ -31,9 +31,18 @@ const jetbrains = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-	title: 'Rodion Zherdev — Frontend Developer',
-	description:
-		'Frontend developer with 4+ years of commercial experience. Complex interfaces, web performance, React and Next.js.',
+    title: 'Daniil Dunytskyi — Junior Game Developer',
+    description:
+        'Junior Game Developer specializing in C++ and C#, game development using Unity and Unreal Engine 5, OpenGL and VR.',
+    openGraph: {
+        title: 'Daniil Dunytskyi — Junior Game Developer',
+        description:
+            'Junior Game Developer specializing in C++ and C#, game development using Unity and Unreal Engine 5, OpenGL and VR.',
+        url: 'https://daniildunytskyi.vercel.app',
+        siteName: 'Daniil Dunytskyi Portfolio',
+        locale: 'en_US',
+        type: 'website',
+    },
 }
 
 export const viewport: Viewport = {
