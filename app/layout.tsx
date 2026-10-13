@@ -31,13 +31,13 @@ const jetbrains = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-    title: 'Daniil Dunytskyi — Junior Game Developer',
+    title: 'Daniil Dunytskyi — Game Developer',
     description:
-        'Junior Game Developer specializing in C++ and C#, game development using Unity and Unreal Engine 5, OpenGL and VR.',
+        'Game Developer specializing in C++ and C#, game development using Unity and Unreal Engine 5, OpenGL and VR.',
     openGraph: {
-        title: 'Daniil Dunytskyi — Junior Game Developer',
+        title: 'Daniil Dunytskyi — Game Developer',
         description:
-            'Junior Game Developer specializing in C++ and C#, game development using Unity and Unreal Engine 5, OpenGL and VR.',
+            'Game Developer specializing in C++ and C#, game development using Unity and Unreal Engine 5, OpenGL and VR.',
         url: 'https://daniildunytskyi.vercel.app',
         siteName: 'Daniil Dunytskyi Portfolio',
         locale: 'en_US',

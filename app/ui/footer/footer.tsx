@@ -5,7 +5,7 @@ export default function Footer() {
 				{/* Без года: страница пререндерится статически, и new Date()
 				    застыл бы на годе сборки до следующего деплоя. */}
 				<p className='label'>
-					&copy; Daniil Dunytskyi &nbsp;—&nbsp; Junior Game Developer
+					&copy; Daniil Dunytskyi &nbsp;—&nbsp; Game Developer
 				</p>
 
 				<div className='flex items-center gap-6'>
